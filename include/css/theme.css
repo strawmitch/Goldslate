@@ -1,3 +1,115 @@
+/*********** LOADER **********/
+
+.loader-bg {
+    position: absolute;
+    display: block;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    background-color: #262626;
+    text-align: center;
+}
+
+.loader {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  border: 4px solid #D3B380;
+  top: 50%;
+  z-index: 99;
+  -webkit-animation: loader 2s infinite ease;
+  -moz-animation: loader 2s infinite ease;
+  -ms-animation: loader 2s infinite ease;
+  -o-animation: loader 2s infinite ease;
+  animation: loader 2s infinite ease;
+}
+
+
+.loader-inner {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  background-color: #D3B380;
+  -webkit-animation: loader-inner 2s infinite ease-in;
+  -moz-animation: loader-inner 2s infinite ease-in;
+  -ms-animation: loader-inner 2s infinite ease-in;
+  -o-animation: loader-inner 2s infinite ease-in;
+  animation: loader-inner 2s infinite ease-in;
+}
+
+@-webkit-keyframes loader {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(180deg); }
+  50% { transform: rotate(180deg); }
+  75% { transform: rotate(360deg); }
+  100% { transform: rotate(360deg); }
+}
+@-moz-keyframes loader {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(180deg); }
+  50% { transform: rotate(180deg); }
+  75% { transform: rotate(360deg); }
+  100% { transform: rotate(360deg); }
+}
+@-ms-keyframes loader {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(180deg); }
+  50% { transform: rotate(180deg); }
+  75% { transform: rotate(360deg); }
+  100% { transform: rotate(360deg); }
+}
+@-o-keyframes loader {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(180deg); }
+  50% { transform: rotate(180deg); }
+  75% { transform: rotate(360deg); }
+  100% { transform: rotate(360deg); }
+}
+@keyframes loader {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(180deg); }
+  50% { transform: rotate(180deg); }
+  75% { transform: rotate(360deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@-webkit-keyframes loader-inner {
+  0% { height: 0%; }
+  25% { height: 0%; }
+  50% { height: 100%; }
+  75% { height: 100%; }
+  100% { height: 0%; }
+}
+@-moz-keyframes loader-inner {
+  0% { height: 0%; }
+  25% { height: 0%; }
+  50% { height: 100%; }
+  75% { height: 100%; }
+  100% { height: 0%; }
+}
+@-ms-keyframes loader-inner {
+  0% { height: 0%; }
+  25% { height: 0%; }
+  50% { height: 100%; }
+  75% { height: 100%; }
+  100% { height: 0%; }
+}
+@-o-keyframes loader-inner {
+  0% { height: 0%; }
+  25% { height: 0%; }
+  50% { height: 100%; }
+  75% { height: 100%; }
+  100% { height: 0%; }
+}
+@keyframes loader-inner {
+  0% { height: 0%; }
+  25% { height: 0%; }
+  50% { height: 100%; }
+  75% { height: 100%; }
+  100% { height: 0%; }
+}
+
 /******** General **********/
 
 * {
