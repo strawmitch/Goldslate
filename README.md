@@ -17,6 +17,6 @@ Credit is not necessary, but appreciated.
 Feel free to use this template however you like, so long as you don't violate the licenses of any of the plugins used. 
 
 <a href="http://purecss.io/grids/">Pure Grids</a>
-<a href="http://alvarotrigo.com/fullPage/">fullpage.js</a>
-<a href="http://fittextjs.com/">FitText</a>
+<br/><a href="http://alvarotrigo.com/fullPage/">fullpage.js</a>
+</br><a href="http://fittextjs.com/">FitText</a>
 
