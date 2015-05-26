@@ -459,6 +459,8 @@ a.social {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
     
     -ms-transition: all 0.15s linear;
     -webkit-transition: all 0.15s linear;
@@ -526,8 +528,6 @@ a.social {
 .l-box-1 {
     background-size: cover;
     background-position: center;
-    -webkit-filter: saturate(2.2);
-    filter: saturate(2.2);
 }
 
 .l-box-2 {
@@ -946,4 +946,7 @@ p.copy {
         line-height: 1.7;
     }
 
+    #section3 .banner {
+        display: block;
+    }
 }
