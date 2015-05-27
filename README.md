@@ -3,7 +3,7 @@ GoldSlate Template
 
 A simple and elegant portfolio site, that focuses on content. 
 Mobile-friendly and responsive. 
-<br>See <a href="http://mai710.github.io/Goldslate.">DEMO</a>here.
+<br>See <a href="http://mai710.github.io/Goldslate.">DEMO</a> here.
 
 How To Use
 ==========
