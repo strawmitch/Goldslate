@@ -1,4 +1,11 @@
-$(document).ready(function() {
+/**
+ * Goldslate theme gallery
+ * https://github.com/mai710/Goldslate
+ *
+ * A portfolio theme by Mai El-Awini
+ */
+
+ $(document).ready(function() {
 
 	/************** SPLASH BUTTONS ****************/
 

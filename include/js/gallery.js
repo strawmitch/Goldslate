@@ -1,14 +1,15 @@
+/**
+ * Goldslate theme gallery
+ * https://github.com/mai710/Goldslate
+ *
+ * A portfolio theme by Mai El-Awini
+ */
+
 $(document).ready(function() {
     BuildPortfolio();
 
     /************** BUTTON METHODS ****************/
 
-    // $('.curtain').click(function(event) {
-    //     if($(this).css('opacity') == 1){
-    //         console.log('CURTAIN');
-    //         event.stopPropagation();
-    //     }
-    // });
     $('.curtain').click(function(event) {
         event.stopPropagation();
         console.log('CLICK');
